@@ -8,11 +8,17 @@
   </head>
   <body>
     <form action="">
-      <label for="">First name</label>
-      <input type="text" />
-      <label for="">Last name</label>
-      <input type="text" />
-      <button>Submit</button>
+      <!-- when label and input have the same value, by pressing on the label, the input get focused! -->
+      <div>
+        <label for="name">First name</label>
+        <input id="name" type="text" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" />
+      </div>
+      <button type="submit">Register</button>
+      <button type="reset">Clear</button>
     </form>
   </body>
 </html>
