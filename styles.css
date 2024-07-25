@@ -10,5 +10,6 @@ textarea {
 
 label {
   /* CSS Bootstrap Framework => Milligram displays the label as block as default,we have to use display:inline to chnage its display! */
-  display: inline;
+  /* OR WE CAN USE LABEL-INLINE CLASS THAT I HAVE DONE IN HTML,THAT'S WHY I COMMENTED IT OUT HERE =>TAKE A LOOK AT HTML PLAESE! */
+  /* display: inline; */
 }
