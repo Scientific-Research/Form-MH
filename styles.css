@@ -44,3 +44,16 @@ label {
 .email {
   margin-bottom: 1rem;
 }
+
+button {
+  background: #0d6efd;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.submit {
+  margin-right: 2rem;
+}
