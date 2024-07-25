@@ -4,7 +4,14 @@ body {
   line-height: 1.5;
 }
 
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+}
+
 label {
+  /* labels are inline elements and when i change them to the block elements, they will take the entire row and therefore appear in the next line!  */
   display: block;
 }
 
