@@ -13,6 +13,14 @@ input[type="email"] {
   padding: 0.5rem 0.7rem;
 }
 
+/* input[type="text"]:focus { OR*/
+/* input[type="email"]:focus{ OR*/
+.input-name:focus,
+.input-email:focus {
+  border-color: #7db0fb;
+  outline: 0;
+}
+
 label {
   /* labels are inline elements and when i change them to the block elements, they will take the entire row and therefore appear in the next line!  */
   display: block;
