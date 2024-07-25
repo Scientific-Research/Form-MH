@@ -18,12 +18,20 @@
       <!-- multiple is a boolean, it doesn't need a true or false value! -->
       <!-- <select name="" id="" multiple> -->
       <select name="" id="">
-        <option value="">Please select a Course...</option>
         <!-- selected is a boolean, it doesn't need a true or false value! -->
         <!-- <option value="1" selected>HTML</option> -->
-        <option value="1">HTML</option>
-        <option value="2">CSS</option>
-        <option value="3">Javascript</option>
+        <optgroup label="Front-end Courses">
+          <!-- <option value="">Please select a Course...</option> -->
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">Javascript</option>
+        </optgroup>
+        <optgroup label="Back-end Courses">
+          <!-- <option value="">Please select a Course...</option> -->
+          <option value="1">Node.js</option>
+          <option value="2">ASP.NET</option>
+          <option value="3">Django</option>
+        </optgroup>
       </select>
     </form>
   </body>
