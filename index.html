@@ -15,19 +15,11 @@
   </head>
   <body>
     <form action="">
-      <div>
-        <!-- input:then press enter -->
-        <input type="checkbox" name="" id="front-end" />
-        <!-- <label for="cb">Front-end</label> -->
-        <label class="label-inline" for="front-end">Front-end</label>
-      </div>
-      <div>
-        <!-- input:then press enter -->
-        <!-- <input type="checkbox" name="" id="back-end" checked /> -->
-        <input type="checkbox" name="" id="back-end" disabled />
-        <!-- <label for="cb">Front-end</label> -->
-        <label class="label-inline" for="back-end">Back-end</label>
-      </div>
+      <!-- input: then press Enter -->
+      <input type="radio" name="membership" id="silver" />
+      <!-- label.label-inline then press Enter -->
+      <!-- we need this label-inline class, otherwise the Milligram framework displays the label and radio button as block and not side by side, to avoid that we use the below class! -->
+      <label for="silver" class="label-inline">Silver</label>
     </form>
   </body>
 </html>
