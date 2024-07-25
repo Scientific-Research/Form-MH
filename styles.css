@@ -4,7 +4,10 @@ body {
   line-height: 1.5;
 }
 
-input {
+/*.input-email,
+.input-name { OR */
+input[type="text"],
+input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 0.5rem 0.7rem;
