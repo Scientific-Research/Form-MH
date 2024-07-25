@@ -11,6 +11,12 @@ input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 0.5rem 0.7rem;
+
+  /* to add the transition,we have to come here as parent and add the transition here and not directly to the:focus 
+  WE WANT TO HAVE THE TRANSITION ONLY FOR TWO BELOW ITEMS:*/
+  /* transition: border-color 0.15s, box-shadow 0.15s; */
+  transition: border-color 0.5s, box-shadow 0.5s;
+  /* transition: all 1s; */
 }
 
 /* input[type="text"]:focus { OR*/
@@ -19,7 +25,15 @@ input[type="email"] {
 .input-email:focus {
   border-color: #7db0fb;
   outline: 0;
+  /* box-shadow: 5px 5px 5px #ccc; */
+  /* 0 0 for horizontal and vertical offset, third zero is for blur and 4px for spreading the shadow! */
+  box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
 }
+
+/* input[type="text"],
+input[type="email"] {
+  box-shadow: 5px 5px 5px #ccc;
+} */
 
 label {
   /* labels are inline elements and when i change them to the block elements, they will take the entire row and therefore appear in the next line!  */
