@@ -7,3 +7,8 @@ textarea {
   /* To prevent from resizing! */
   resize: none;
 }
+
+label {
+  /* CSS Bootstrap Framework => Milligram displays the label as block as default,we have to use display:inline to chnage its display! */
+  display: inline;
+}
