@@ -16,10 +16,17 @@
   <body>
     <form action="">
       <!-- input: then press Enter -->
-      <input type="radio" name="membership" id="silver" />
+      <!-- WE HAVE ONLY ONE GROUP HERE CALLED MEMBERSHIP WITH TWO MEMBERS AND WE SPECIFY THE MEMEBERSHIP IN NAME SECTION => name="membership-->
+      <div>
+        <input type="radio" name="membership" id="silver" />
+        <label for="silver" class="label-inline">Silver</label>
+      </div>
+      <div>
+        <input type="radio" name="membership" id="gold" />
+        <label for="gold" class="label-inline">Gold</label>
+      </div>
       <!-- label.label-inline then press Enter -->
       <!-- we need this label-inline class, otherwise the Milligram framework displays the label and radio button as block and not side by side, to avoid that we use the below class! -->
-      <label for="silver" class="label-inline">Silver</label>
     </form>
   </body>
 </html>
