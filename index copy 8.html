@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Milligram CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Field Set Element</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- when our project get bigger and bigger, we have to group them  -->
+      <fieldset>
+        <!-- This is the label for our group -->
+        <legend>Billing Address</legend>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
+
+      <fieldset>
+        <!-- This is the label for our group -->
+        <legend>Payment</legend>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
+
+      <!-- An alternative method is using the SECTION instead of fieldset and h2 instead of legend-->
+      <section>
+        <!-- This is the label for our group -->
+        <h2>Shipping</h2>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </section>
+    </form>
+  </body>
+</html>
