@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Milligram CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Data Validation</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- Built-in validation in HTML5, for complex one, we have to use Javascript -->
+      <!-- Required is a boolean attribute and it doesn't need a true or false value! -->
+      <!-- MAXLENGTH is important to prevent the malicious user to enter a very long string with tausend of characters and break our website! -->
+      <input type="text" name="" id="" required minlength="3" maxlength="10" />
+
+      <input type="email" name="" id="" required minlength="3" />
+
+      <input type="date" name="" id="" required minlength="3" />
+
+      <input type="number" name="" id="" required min="0" max="5" />
+      <!-- it is very important to prevent negative values for age when the malicious user enter negative values and our website can break! -->
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
