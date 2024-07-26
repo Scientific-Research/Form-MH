@@ -11,18 +11,26 @@
     />
 
     <link rel="stylesheet" href="styles.css" />
-    <title>Check-Boxes</title>
+    <title>Field Set Element</title>
   </head>
   <body>
     <form action="">
-      <!-- <input type="file" name="" id="" multiple /> -->
-      <!-- <input type="file" name="" id="" accept=".jpg,.png" /> -->
-      <input type="file" name="" id="" accept="image/*" />
-      <!-- to accept any image file -->
-      <input type="file" name="" id="" accept="video/*" />
-      <!-- to accept any video file -->
-      <input type="file" name="" id="" accept="audio/*" />
-      <!-- to accept any audio file -->
+      <!-- when our project get bigger and bigger, we have to group them  -->
+      <fieldset>
+        <!-- This is the label for our group -->
+        <legend>Billing Address</legend>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
+
+      <fieldset>
+        <!-- This is the label for our group -->
+        <legend>Payment</legend>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
     </form>
   </body>
 </html>
