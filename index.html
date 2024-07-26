@@ -17,7 +17,8 @@
     <form action="">
       <!-- Built-in validation in HTML5, for complex one, we have to use Javascript -->
       <!-- Required is a boolean attribute and it doesn't need a true or false value! -->
-      <input type="text" name="" id="" required />
+      <!-- MAXLENGTH is important to prevent the malicious user to enter a very long string with tausend of characters and break our website! -->
+      <input type="text" name="" id="" required minlength="3" maxlength="10" />
       <button type="submit">Submit</button>
     </form>
   </body>
