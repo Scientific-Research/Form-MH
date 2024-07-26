@@ -15,10 +15,12 @@
   </head>
   <body>
     <!-- the below link which is our backend point and i got it ready from this website: https://formspree.io/forms/xovajgqe/integration -->
+
     <!-- IN A REAL PROJECT, WE USE NODE/EXPRESS AND WE HAVE TO LINK THIS FORM TO OUR REAL BACKEND INSTEAD OF USING THIS READY LINK FROM FORMSPREE -->
     <form action="https://formspree.io/f/xovajgqe" method="post">
-      <input type="text" name="" id="" placeholder="Name" />
-      <input type="email" name="" id="" placeholder="Email" />
+      <input type="text" name="" id="" placeholder="Name" name="name" />
+      <!--To submit a form, we need the name attribute has to be added for both of the inputs,otherwise the post method will not work and will not send any data to the server(backend) -->
+      <input type="email" name="" id="" placeholder="Email" name="email" />
 
       <button type="submit">
         <!-- <i class="fas fa-alert"></i> -->
